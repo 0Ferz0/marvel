@@ -1,0 +1,91 @@
+@import "../../style/variables.scss";
+
+.info {
+  width: 425px;
+  box-shadow: 0px 0px 20px 0px #00000040;
+  padding: 25px 25px 15px 25px;
+  background-color: #ffffff;
+  height: fit-content;
+  position: sticky;
+  top: 10px;
+}
+
+.randomInfo {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  display: flex;
+  padding-top: 15px;
+}
+
+.personWrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.personCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  padding-top: 35px;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+}
+
+.comics {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  height: fit-content;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.comicsTitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  display: flex;
+  padding-top: 10px;
+}
+
+.comicsName {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  height: 25px;
+  padding: 4px 10px 3px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.scrollComics {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding-bottom: 6px;
+
+  a {
+    cursor: pointer;
+  }
+}

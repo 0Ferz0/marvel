@@ -1,0 +1,53 @@
+.plugMessage {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: left;
+  width: 318px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+.plugPict {
+  width: 375px;
+  height: 190px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.plugPhoto {
+  width: 40px;
+  height: 40px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+
+.plugThin {
+  width: 326px;
+  height: 16px;
+  background: #c4c4c4;
+}
+
+.plugTop {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.plugWide {
+  width: 375px;
+  height: 35px;
+  background: #c4c4c4;
+}
+
+.info {
+  width: 425px;
+  box-shadow: 0px 0px 20px 0px #00000040;
+  padding: 25px 25px 15px 25px;
+  background-color: #ffffff;
+  height: fit-content;
+  position: sticky;
+  top: 10px;
+}
